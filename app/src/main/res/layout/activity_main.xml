@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tablayout"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="@color/whatsAppColor"
+        android:elevation="12dp"
+        app:tabIndicator="@color/browser_actions_text_color"
+        app:tabSelectedTextColor="@color/design_default_color_background"
+        app:tabTextColor="@color/design_default_color_background"
+        app:tabMaxWidth="0dp"
+        app:tabGravity="fill"
+        app:tabMode="fixed"
+        />
+    <SearchView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:queryHint="search"
+        android:id="@+id/txtsearch"
+
+        />
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>

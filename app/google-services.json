@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "868523017205",
+    "project_id": "ganahigana-ba77e",
+    "storage_bucket": "ganahigana-ba77e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:868523017205:android:eca83a5076a7c9d7ed16bc",
+        "android_client_info": {
+          "package_name": "com.example.ganahigana"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "868523017205-i81ba0oti44dgr4riscdspg3ns5feubj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCSCMucByCe2JFdwJASxK7SANDkPfIl8VI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "868523017205-i81ba0oti44dgr4riscdspg3ns5feubj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
